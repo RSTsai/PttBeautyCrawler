@@ -1,6 +1,6 @@
 # PttBeautyCrawler
 
-V2.0
+V2.0  
 自動化爬蟲串接(celery+RabitMq)  
 歷史資料中已存在的項目不會重複保存  
 歷史資料中已存在的項目資料會更新  
