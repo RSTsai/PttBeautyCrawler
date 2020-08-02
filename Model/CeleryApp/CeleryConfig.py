@@ -31,7 +31,7 @@ CELERYBEAT_SCHEDULE = {
     'TestTask30sec': {
         'task': 'Model.CeleryApp.CeleryTask.PttCrawler',
         'schedule': timedelta(seconds=30),
-        'args': (1)
+        'args': (1, 0)
     }
     # 'PttCrawler': {
     #     'task': 'Model.Crawler.PttBeautyCrawlerModel.CrawlerAction',

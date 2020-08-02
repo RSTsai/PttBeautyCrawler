@@ -95,9 +95,9 @@ def UpdateRepeatData(post_list, post_list_history):
             # post有重複則更新post_list_history中的資料
             for repeatDataIndex in repeatDataIndexList:
                 print(f"已存在相同資料，更新post_list_history[{repeatDataIndex}]")
-                print(post_list_history[repeatDataIndex]['title'],
-                      ":",
-                      post_list_history[repeatDataIndex]['url'])
+                print(post_list_history[repeatDataIndex]['title'])
+                print(post_list_history[repeatDataIndex]['url'])
+                print("\n")
                 post_list_history[repeatDataIndex] = post
         else:
             # post沒有重複則加入post_list_new
